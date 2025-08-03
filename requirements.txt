@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+requests
+ipwhois
+python-magic
+stix2
+pandas
+tqdm
+yara-python
+sigma
+mitreattack-python
+python-dotenv

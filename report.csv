@@ -1,0 +1,12 @@
+IOC,Type,Risk Level,Score,Action,Reason,Geo,MITRE
+114.0.0.0,ip,Safe,1.2,Ignore,VT detection (1 engines),N/A,Command and Control
+185.71.65.0,ip,Safe,0.0,Ignore,,N/A,Command and Control
+phishing-domain.com,domain,Safe,0.0,Ignore,,N/A,Unknown
+evil.exe,domain,Safe,0.0,Ignore,,N/A,Unknown
+cmd.exe,domain,Safe,0.0,Ignore,,N/A,Unknown
+bad-c2-server.net,domain,Safe,0.0,Ignore,,N/A,Unknown
+hackerone.redirectme.net,domain,Safe,0.0,Ignore,,N/A,Unknown
+https://malicious.example/evil.exe,url,Safe,0.0,Ignore,,N/A,Initial Access
+http://hackerone.redirectme.net/payload,url,Safe,0.0,Ignore,,N/A,Initial Access
+8dd6d0ea2fd50ac94c4ce3bf42451250,MD5,Safe,0.0,Ignore,,N/A,Unknown
+support@phishing-domain.com,email,Safe,0.0,Ignore,,N/A,Unknown

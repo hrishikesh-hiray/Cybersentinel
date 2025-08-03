@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CyberSentinel</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CyberSentinel - Threat Intelligence Analyst</h1>
+        <form method="post" action="/analyze">
+            <textarea name="raw_input" rows="15" placeholder="Paste logs or IOCs here..."></textarea><br><br>
+
+            <label><input type="checkbox" name="enable_geo"> Enable Geo Lookup</label><br>
+            <label><input type="checkbox" name="export_csv_flag"> Export CSV</label><br>
+            <label><input type="checkbox" name="export_stix_flag"> Export STIX</label><br><br>
+
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>

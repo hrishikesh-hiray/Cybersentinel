@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>IOC Analysis Results</h2>
+        <div id="summary-table">{{ summary_table | safe }}</div>
+
+        {% if export_csv_flag %}
+            <p>✅ CSV report saved as 'report.csv'</p>
+        {% endif %}
+
+        {% if export_stix_flag %}
+            <p>✅ STIX report saved as 'report.stix'</p>
+        {% endif %}
+
+        <a href="/">← Back to Home</a>
+    </div>
+</body>
+</html>
